@@ -1,0 +1,44 @@
+//- Variables globales
+-var root_static    = 'static'
+-var root_img       = 'static/img'
+
+//- Variables Templates
+block variables
+
+doctype html
+
+html.an-theme(lang='es')
+
+  //-Head html
+  head
+    meta(charset='utf-8')
+    meta(
+      http-equiv='X-UA-Compatible'
+      content='IE=edge'
+    )
+    title #{ page_title }
+    meta(
+      name='description'
+      content=page_description
+    )
+    meta(
+      name='author'
+      content=page_author
+    )
+
+    //- responsive
+    meta(
+      name='viewport'
+      content='width=device-width, initial-scale=1'
+    )
+    //- css
+    link(
+      rel='stylesheet'
+      type='text/css'
+      href=`${ root_static }/css/theme_briefcase.css`
+    )
+
+    body 
+      include ./layout/_header
+      main  
+        block content
