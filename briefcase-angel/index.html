@@ -8,20 +8,63 @@
     <meta name="author" content="Angélica Aguilar">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="static/css/theme_briefcase.css">
-    <body> 
-      <header class="an-header"> 
-        <h1>Angélica Aguilar </h1>
-        <nav class="an-navbar"> 
-          <ul class="an-navbar_list"> 
-            <li class="an-navbar_list-item"> <a href="#">Inicio </a></li>
-            <li class="an-navbar_list-item"><a href="#">Nosotros</a></li>
-            <li class="an-navbar_list-item"><a href="#">Clientes </a></li>
-            <li class="an-navbar_list-item"><a href="#">Contactos</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main> 
-      </main>
-    </body>
   </head>
+  <body> 
+    <header class="an-header">
+      <figure class="an-header-brand"><img class="an-brand-img" src="static/img/brand-angelica.svg" alt="Angelica Aguilar"></figure>
+      <nav class="an-navbar"> <a class="an-navbar-link" href="#"><span class="an-link-ico ag-link-ico_home"></span>Inicio</a><a class="an-navbar-link" href="#"><span class="an-link-ico ag-link-ico_contact"></span>Contactar</a><a class="an-navbar-link" href="#"><span class="an-link-ico ag-link-ico_social-media"></span>Redes sociales</a></nav>
+    </header>
+    <div class="an-banner"> 
+      <figure class="an-banner-figure"> <img src="static/img/banner.jpeg" alt="Computador con codigo CSS"></figure>
+      <section class="an-banner-caption">
+        <h2 class="an-caption-title">Diseño y Desarrollo web</h2>
+        <p class="an-caption-paragraph"> <i class="ico"> </i>Soacha, Cundinamarca</p><a class="an-caption-button">Contactar</a>
+      </section>
+    </div>
+    <main class="an-main-cards">
+      <h2></h2>
+      <section class="an-card"><i class="ico"> </i>
+        <h3>Diseño Web</h3>
+        <p>Consequatur veniam consectetur distinctio facilis modi blanditiis vel, in, odio maxime aliquid odit. Nemo pariatur unde placeat sint!</p>
+      </section>
+      <section class="an-card"><i class="ico"> </i>
+        <h3>Aplicaciones Web </h3>
+        <p>Consequatur veniam consectetur distinctio facilis modi blanditiis vel, in, odio maxime aliquid odit. Nemo pariatur unde placeat sint!</p>
+      </section>
+      <section class="an-card"><i class="ico"> </i>
+        <h3>E-Commerce</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis delectus eum corporis. </p>
+      </section>
+    </main>
+    <section class="an-form-container">
+      <h2>Contactame </h2>
+      <form class="an-form" action="post">
+        <fieldset class="an-form-fieldset"> 
+          <legend>Contactame llenando todos los campos.</legend>
+          <div class="fieldset-wrap-input">
+            <label for="name">Nombre </label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre">
+          </div>
+          <div class="fieldset-wrap-input">
+            <label for="tel">Telefono </label>
+            <input type="tel" id="tel" name="tel" placeholder="Tu numero de telefono">
+          </div>
+          <div class="fieldset-wrap-input">
+            <label for="email">Correo electronico </label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electronico">
+          </div>
+          <div class="fieldset-wrap-input">
+            <label for="message">Mensaje </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <div class="fieldset-wrap-input">
+            <button type="submit">Enviar  </button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>Todos los derechos reservados. Angelica Aguilar</p>
+    </footer>
+  </body>
 </html>

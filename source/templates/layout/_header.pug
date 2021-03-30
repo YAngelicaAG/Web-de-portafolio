@@ -1,13 +1,17 @@
-header.an-header 
-  h1 Angélica Aguilar 
+header.an-header
+  figure.an-header-brand
+    img.an-brand-img(src=`${ root_img }/brand-angelica.svg`, alt="Angelica Aguilar")
   nav.an-navbar 
-    ul.an-navbar_list 
-      li.an-navbar_list-item 
-        a(href="#") Inicio 
-      li.an-navbar_list-item
-        a(href="#") Nosotros
-      li.an-navbar_list-item
-        a(href="#") Clientes 
-      li.an-navbar_list-item
-        a(href="#") Contactos
+    a.an-navbar-link(href="#")
+      span.an-link-ico.ag-link-ico_home
+      | Inicio
+
+    a.an-navbar-link(href="#")
+      span.an-link-ico.ag-link-ico_contact
+      | Contactar
+
+    a.an-navbar-link(href="#")
+      span.an-link-ico.ag-link-ico_social-media
+      | Redes sociales
+
 

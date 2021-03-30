@@ -1,2 +1,23 @@
+/*
+  1. Posicionamiento
+  2. Modelo caja
+  3. Tipografía
+  4. Visuales
+  5. Otros
+*/
+
+@import
+  'variables/_var_color',
+  'variables/_var_font-typo';
+
 @import
   'generic/normalize';
+
+@import
+  'patterns/_buttons',
+  'patterns/_layout',
+  'patterns/_titles';
+
+@import
+  'layout/_header';
+

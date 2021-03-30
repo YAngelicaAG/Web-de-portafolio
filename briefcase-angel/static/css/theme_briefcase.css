@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/*
+  1. Posicionamiento
+  2. Modelo caja
+  3. Tipografía
+  4. Visuales
+  5. Otros
+*/
 body,
 h1, h2, h3, h4, h5, h6,
 dl, dd, ol, ul {
@@ -278,4 +286,78 @@ template {
 
 [hidden] {
   display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 30px 0;
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.an-header-brand {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #E7C8FF;
+}
+
+.an-brand-img {
+  display: block;
+  width: 140px;
+}
+
+.an-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.an-navbar-link {
+  font-size: 1rem;
+  font-family: 'Dosis';
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 13px;
+  width: 92px;
+  background-color: #E7C8FF;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-top: 10px;
+}
+
+.an-link-ico {
+  display: block;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ag-link-ico_social-media {
+  background-image: url("./img/social-media.svg");
+}
+
+.ag-link-ico_contact {
+  background-image: url("./img/contact-form.svg");
+}
+
+.ag-link-ico_home {
+  background-image: url("./img/home.svg");
 }

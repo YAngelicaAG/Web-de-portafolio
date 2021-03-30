@@ -1,0 +1,23 @@
+section.an-form-container
+  h2 Contactame 
+  form(action="post").an-form
+    fieldset.an-form-fieldset 
+      legend Contactame llenando todos los campos.
+      .fieldset-wrap-input
+        label(for="name") Nombre 
+        input(type="text", id="name", name="name", placeholder="Tu nombre") 
+
+      .fieldset-wrap-input
+        label(for="tel") Telefono 
+        input(type="tel", id="tel", name="tel", placeholder="Tu numero de telefono")
+
+      .fieldset-wrap-input
+        label(for="email") Correo electronico 
+        input(type="email", id="email" name="email", placeholder="Tu correo electronico")
+
+      .fieldset-wrap-input
+        label(for="message") Mensaje 
+        textarea(name="message", id="message", cols="30", rows="10")
+
+      .fieldset-wrap-input
+        button(type="submit") Enviar  

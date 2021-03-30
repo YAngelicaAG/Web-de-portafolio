@@ -1,0 +1,52 @@
+.an-header {
+}
+.an-header-brand {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #E7C8FF;
+}
+
+.an-brand-img {
+  display: block;
+  width: 140px;
+}
+
+.an-navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.an-navbar-link {
+  font-size: 1rem;
+  font-family: 'Dosis';
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  width: 92px;
+  background-color: #E7C8FF;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-top: 10px;
+}
+
+.an-link-ico {
+  display: block;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ag-link-ico_social-media {
+  background-image: url('./img/social-media.svg');
+}
+
+.ag-link-ico_contact {
+  background-image: url('./img/contact-form.svg');
+}
+
+.ag-link-ico_home {
+  background-image: url('./img/home.svg');
+}
